@@ -1,0 +1,72 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    margin: 1rem;
+    padding: 0;
+    background-color: turquoise;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.character {
+    border: 0.2rem solid black;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    text-align: center;
+    background-color: slateblue;
+    color: white;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ 
+.inventory {
+    margin: 0.2rem;
+    background-color: blanchedalmond;
+    width: 100%;
+    display: inline-flex;
+    border-radius: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food {
+    display: inline-block;
+    background-color: lightgreen;
+    box-sizing: border-box;
+    border: 0.2rem solid black;
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+button {
+    background-color: lightcyan;
+    border: 0.2rem solid black;
+    outline: none;
+    padding: 0.3rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+}
+
+button:hover { 
+    border: 0.2rem solid lightcyan;
+    color: lightcyan;
+    background-color: black;
+}
